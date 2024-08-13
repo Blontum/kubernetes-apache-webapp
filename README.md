@@ -19,3 +19,6 @@ To create the EKS cluster, use the following `eksctl` command:
 
 ```bash
 eksctl create cluster --name playground-cluster --region us-west-2 --nodes 3
+
+#2. Deploy Apache Application
+Apply Deployment Manifest:
