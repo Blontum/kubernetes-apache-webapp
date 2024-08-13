@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: apache-deployment
+  labels:
+    app: apache # This label identifies the app
+spec:
+  replicas: 5
+  selector:
+    matchLabels:
+      app: apache
+  template:
+    metadata:
+      labels:
+        app: apache
+    spec:
+      containers:
+      - name: apache-container
+        image: lontumb/jenkins-docker-project:latest
+        ports:
+        - containerPort: 80
+
+# kubectl apply -f deployment-manifest.yml : use this for deployme of the above apache-deployment-manefest.yml
+# to see if you have created a pod: kubectl get pod
+#kubectl get deployments

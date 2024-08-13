@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to Docker</title>
+    <style>
+        body {
+            text-align: center;
+        }
+        h2 {
+            font-size: 5rem;
+            color: rgb(10, 8, 8);
+        }
+        h1 {
+            font-size: 2rem;
+            color: rgb(234, 23, 23);
+        }
+        .subtitle {
+            font-size: 1.5rem;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h2>WELCOME TO DOCKER</h2>
+    <hr>
+    <h1>This is our first Dockerfile created locally</h1>
+    <h1 class="subtitle">Hope we will enjoy the journey</h1>
+</body>
+</html>
