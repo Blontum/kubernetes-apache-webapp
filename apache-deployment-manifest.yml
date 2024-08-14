@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: apache-container
-        image: lontumb/jenkins-docker-project:latest
+        image: lontumb/bo_apache_image_docker_kute:v1.0.0
         ports:
         - containerPort: 80
 
