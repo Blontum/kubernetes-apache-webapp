@@ -10,7 +10,7 @@ AWS CLI: For interacting with AWS services (if using EKS).
 Setup Instructions
 1. Clone the Repository
 Clone the repository to your local machine:
-bashCopygit clone https://github.com/<lontumb>/kubernetes-apache-webapp.git
+bashCopygit clone https://github.com/<your-username>/kubernetes-apache-webapp.git
 cd kubernetes-apache-webapp
 2. Apply Kubernetes Manifests
 Deployment: Create a Deployment for the Apache web server:
@@ -41,6 +41,12 @@ README.md: Project documentation.
 index.html: Sample HTML content for the Apache web server.
 
 Additional Notes
+
+Make sure to replace <external-ip-or-dns> with the actual IP or DNS name of your LoadBalancer.
+Modify the Dockerfile or manifests as needed based on specific project requirements.
+
+License
+This project is licensed under the MIT License.
 
 Make sure to replace <external-ip-or-dns> with the actual IP or DNS name of your LoadBalancer.
 Modify the Dockerfile or manifests as needed based on specific project requirements.
